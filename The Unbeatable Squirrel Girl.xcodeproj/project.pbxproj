@@ -16,6 +16,7 @@
 		3E4E96B81BA9C6ED00170FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E96B61BA9C6ED00170FB0 /* LaunchScreen.storyboard */; };
 		3E4E96C31BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96C21BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m */; };
 		3E4E96CE1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96CD1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m */; };
+		59902131017DE0950A67C26D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2CFB88FFF6AD9B0418C1EA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3E4E96A21BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Unbeatable Squirrel Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E96A61BA9C6ED00170FB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E4E96A81BA9C6ED00170FB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		3E4E96C91BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Unbeatable Squirrel GirlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E96CD1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Unbeatable_Squirrel_GirlUITests.m; sourceTree = "<group>"; };
 		3E4E96CF1BA9C6ED00170FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2CFB88FFF6AD9B0418C1EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59902131017DE0950A67C26D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BAB87D05A7ED82082470D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */,
+				27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3E4E96991BA9C6ED00170FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +102,8 @@
 				3E4E96C11BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests */,
 				3E4E96CC1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests */,
 				3E4E96A31BA9C6ED00170FB0 /* Products */,
+				3BAB87D05A7ED82082470D30 /* Pods */,
+				EF85653133F58F439ECF5F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +161,14 @@
 			path = "The Unbeatable Squirrel GirlUITests";
 			sourceTree = "<group>";
 		};
+		EF85653133F58F439ECF5F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2CFB88FFF6AD9B0418C1EA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E4E96D21BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel Girl" */;
 			buildPhases = (
+				6C1BF32FE836AA72A2C958A7 /* Check Pods Manifest.lock */,
 				3E4E969E1BA9C6ED00170FB0 /* Sources */,
 				3E4E969F1BA9C6ED00170FB0 /* Frameworks */,
 				3E4E96A01BA9C6ED00170FB0 /* Resources */,
+				894DE4D61B91DCF9140C53AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +295,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C1BF32FE836AA72A2C958A7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		894DE4D61B91DCF9140C53AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E4E969E1BA9C6ED00170FB0 /* Sources */ = {
@@ -415,6 +474,7 @@
 		};
 		3E4E96D31BA9C6ED00170FB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Unbeatable Squirrel Girl/Info.plist";
@@ -426,6 +486,7 @@
 		};
 		3E4E96D41BA9C6ED00170FB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Unbeatable Squirrel Girl/Info.plist";
@@ -502,6 +563,7 @@
 				3E4E96D41BA9C6ED00170FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E4E96D51BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +572,7 @@
 				3E4E96D71BA9C6ED00170FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E4E96D81BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +581,7 @@
 				3E4E96DA1BA9C6ED00170FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
