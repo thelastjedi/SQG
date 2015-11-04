@@ -2,8 +2,8 @@
 //  main.m
 //  The Unbeatable Squirrel Girl
 //
-//  Created by Harshita on 16/09/15.
-//  Copyright © 2015 HC. All rights reserved.
+//  Created by Harshita on 04/11/15.
+//  Copyright © 2015. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

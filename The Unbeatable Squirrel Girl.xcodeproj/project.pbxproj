@@ -7,164 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E4E96A71BA9C6ED00170FB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96A61BA9C6ED00170FB0 /* main.m */; };
-		3E4E96AA1BA9C6ED00170FB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96A91BA9C6ED00170FB0 /* AppDelegate.m */; };
-		3E4E96AD1BA9C6ED00170FB0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96AC1BA9C6ED00170FB0 /* MasterViewController.m */; };
-		3E4E96B01BA9C6ED00170FB0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96AF1BA9C6ED00170FB0 /* DetailViewController.m */; };
-		3E4E96B31BA9C6ED00170FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E96B11BA9C6ED00170FB0 /* Main.storyboard */; };
-		3E4E96B51BA9C6ED00170FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E96B41BA9C6ED00170FB0 /* Assets.xcassets */; };
-		3E4E96B81BA9C6ED00170FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E96B61BA9C6ED00170FB0 /* LaunchScreen.storyboard */; };
-		3E4E96C31BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96C21BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m */; };
-		3E4E96CE1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E96CD1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m */; };
-		59902131017DE0950A67C26D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2CFB88FFF6AD9B0418C1EA /* libPods.a */; };
+		3E7E84311BE9FB0F00DAF763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E84301BE9FB0F00DAF763 /* main.m */; };
+		3E7E84341BE9FB0F00DAF763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E84331BE9FB0F00DAF763 /* AppDelegate.m */; };
+		3E7E843A1BE9FB0F00DAF763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E84381BE9FB0F00DAF763 /* Main.storyboard */; };
+		3E7E843C1BE9FB0F00DAF763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E843B1BE9FB0F00DAF763 /* Assets.xcassets */; };
+		3E7E843F1BE9FB0F00DAF763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E843D1BE9FB0F00DAF763 /* LaunchScreen.storyboard */; };
+		3E7E844A1BE9FF7200DAF763 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E84491BE9FF7200DAF763 /* Keys.plist */; };
+		3E7E844F1BEA097000DAF763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E844E1BEA097000DAF763 /* ViewController.m */; };
+		3E7E84551BEA0C4000DAF763 /* AppDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E84541BEA0C4000DAF763 /* AppDataManager.m */; };
+		9CBAF5581BD84AA95434EDCB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78621D9BE90EBE2A73369FD7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3E4E96BF1BA9C6ED00170FB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E4E969A1BA9C6ED00170FB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3E4E96A11BA9C6ED00170FB0;
-			remoteInfo = "The Unbeatable Squirrel Girl";
-		};
-		3E4E96CA1BA9C6ED00170FB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E4E969A1BA9C6ED00170FB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3E4E96A11BA9C6ED00170FB0;
-			remoteInfo = "The Unbeatable Squirrel Girl";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		3E4E96A21BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Unbeatable Squirrel Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E96A61BA9C6ED00170FB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E4E96A81BA9C6ED00170FB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3E4E96A91BA9C6ED00170FB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E4E96AB1BA9C6ED00170FB0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		3E4E96AC1BA9C6ED00170FB0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3E4E96AE1BA9C6ED00170FB0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3E4E96AF1BA9C6ED00170FB0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		3E4E96B21BA9C6ED00170FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E4E96B41BA9C6ED00170FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E4E96B71BA9C6ED00170FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3E4E96B91BA9C6ED00170FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E4E96BE1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Unbeatable Squirrel GirlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E96C21BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Unbeatable_Squirrel_GirlTests.m; sourceTree = "<group>"; };
-		3E4E96C41BA9C6ED00170FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E4E96C91BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Unbeatable Squirrel GirlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E96CD1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Unbeatable_Squirrel_GirlUITests.m; sourceTree = "<group>"; };
-		3E4E96CF1BA9C6ED00170FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA2CFB88FFF6AD9B0418C1EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3E7E842C1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Unbeatable Squirrel Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7E84301BE9FB0F00DAF763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E7E84321BE9FB0F00DAF763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E7E84331BE9FB0F00DAF763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E7E84391BE9FB0F00DAF763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7E843B1BE9FB0F00DAF763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7E843E1BE9FB0F00DAF763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7E84401BE9FB0F00DAF763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7E84491BE9FF7200DAF763 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Keys.plist; path = Keys/Keys.plist; sourceTree = SOURCE_ROOT; };
+		3E7E844D1BEA097000DAF763 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E7E844E1BEA097000DAF763 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E7E84531BEA0C4000DAF763 /* AppDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDataManager.h; sourceTree = "<group>"; };
+		3E7E84541BEA0C4000DAF763 /* AppDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDataManager.m; sourceTree = "<group>"; };
+		6321382409F302D55547154F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6C104E5B458C9DD956028DFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		78621D9BE90EBE2A73369FD7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E4E969F1BA9C6ED00170FB0 /* Frameworks */ = {
+		3E7E84291BE9FB0F00DAF763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59902131017DE0950A67C26D /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96BB1BA9C6ED00170FB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96C61BA9C6ED00170FB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9CBAF5581BD84AA95434EDCB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BAB87D05A7ED82082470D30 /* Pods */ = {
+		378E3B428DF22B0CDB353AED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */,
-				27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */,
+				6C104E5B458C9DD956028DFF /* Pods.debug.xcconfig */,
+				6321382409F302D55547154F /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3E4E96991BA9C6ED00170FB0 = {
+		3E7E84231BE9FB0F00DAF763 = {
 			isa = PBXGroup;
 			children = (
-				3E4E96A41BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */,
-				3E4E96C11BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests */,
-				3E4E96CC1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests */,
-				3E4E96A31BA9C6ED00170FB0 /* Products */,
-				3BAB87D05A7ED82082470D30 /* Pods */,
-				EF85653133F58F439ECF5F13 /* Frameworks */,
+				3E7E842E1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl */,
+				3E7E842D1BE9FB0F00DAF763 /* Products */,
+				378E3B428DF22B0CDB353AED /* Pods */,
+				518A0C19FBEF239D8ADE4D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		3E4E96A31BA9C6ED00170FB0 /* Products */ = {
+		3E7E842D1BE9FB0F00DAF763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E96A21BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl.app */,
-				3E4E96BE1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests.xctest */,
-				3E4E96C91BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests.xctest */,
+				3E7E842C1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E4E96A41BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */ = {
+		3E7E842E1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E96A81BA9C6ED00170FB0 /* AppDelegate.h */,
-				3E4E96A91BA9C6ED00170FB0 /* AppDelegate.m */,
-				3E4E96AB1BA9C6ED00170FB0 /* MasterViewController.h */,
-				3E4E96AC1BA9C6ED00170FB0 /* MasterViewController.m */,
-				3E4E96AE1BA9C6ED00170FB0 /* DetailViewController.h */,
-				3E4E96AF1BA9C6ED00170FB0 /* DetailViewController.m */,
-				3E4E96B11BA9C6ED00170FB0 /* Main.storyboard */,
-				3E4E96B41BA9C6ED00170FB0 /* Assets.xcassets */,
-				3E4E96B61BA9C6ED00170FB0 /* LaunchScreen.storyboard */,
-				3E4E96B91BA9C6ED00170FB0 /* Info.plist */,
-				3E4E96A51BA9C6ED00170FB0 /* Supporting Files */,
+				3E7E84321BE9FB0F00DAF763 /* AppDelegate.h */,
+				3E7E84331BE9FB0F00DAF763 /* AppDelegate.m */,
+				3E7E84501BEA0C1000DAF763 /* Utilities */,
+				3E7E844C1BEA097000DAF763 /* Controllers */,
+				3E7E84381BE9FB0F00DAF763 /* Main.storyboard */,
+				3E7E843B1BE9FB0F00DAF763 /* Assets.xcassets */,
+				3E7E843D1BE9FB0F00DAF763 /* LaunchScreen.storyboard */,
+				3E7E84401BE9FB0F00DAF763 /* Info.plist */,
+				3E7E842F1BE9FB0F00DAF763 /* Supporting Files */,
 			);
 			path = "The Unbeatable Squirrel Girl";
 			sourceTree = "<group>";
 		};
-		3E4E96A51BA9C6ED00170FB0 /* Supporting Files */ = {
+		3E7E842F1BE9FB0F00DAF763 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E96A61BA9C6ED00170FB0 /* main.m */,
+				3E7E84301BE9FB0F00DAF763 /* main.m */,
+				3E7E84491BE9FF7200DAF763 /* Keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3E4E96C11BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests */ = {
+		3E7E844C1BEA097000DAF763 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E96C21BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m */,
-				3E4E96C41BA9C6ED00170FB0 /* Info.plist */,
+				3E7E844D1BEA097000DAF763 /* ViewController.h */,
+				3E7E844E1BEA097000DAF763 /* ViewController.m */,
 			);
-			path = "The Unbeatable Squirrel GirlTests";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		3E4E96CC1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests */ = {
+		3E7E84501BEA0C1000DAF763 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E96CD1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m */,
-				3E4E96CF1BA9C6ED00170FB0 /* Info.plist */,
+				3E7E84531BEA0C4000DAF763 /* AppDataManager.h */,
+				3E7E84541BEA0C4000DAF763 /* AppDataManager.m */,
 			);
-			path = "The Unbeatable Squirrel GirlUITests";
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		EF85653133F58F439ECF5F13 /* Frameworks */ = {
+		518A0C19FBEF239D8ADE4D0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA2CFB88FFF6AD9B0418C1EA /* libPods.a */,
+				78621D9BE90EBE2A73369FD7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,15 +130,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E4E96A11BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */ = {
+		3E7E842B1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E4E96D21BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel Girl" */;
+			buildConfigurationList = 3E7E84431BE9FB0F00DAF763 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel Girl" */;
 			buildPhases = (
-				6C1BF32FE836AA72A2C958A7 /* Check Pods Manifest.lock */,
-				3E4E969E1BA9C6ED00170FB0 /* Sources */,
-				3E4E969F1BA9C6ED00170FB0 /* Frameworks */,
-				3E4E96A01BA9C6ED00170FB0 /* Resources */,
-				894DE4D61B91DCF9140C53AA /* Copy Pods Resources */,
+				61BC0E713CE956D7A36CFFD4 /* Check Pods Manifest.lock */,
+				3E7E84281BE9FB0F00DAF763 /* Sources */,
+				3E7E84291BE9FB0F00DAF763 /* Frameworks */,
+				3E7E842A1BE9FB0F00DAF763 /* Resources */,
+				32585E632970E2EBE6366F81 /* Embed Pods Frameworks */,
+				B73E6773C5F47979099CE81F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,68 +147,24 @@
 			);
 			name = "The Unbeatable Squirrel Girl";
 			productName = "The Unbeatable Squirrel Girl";
-			productReference = 3E4E96A21BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl.app */;
+			productReference = 3E7E842C1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3E4E96BD1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3E4E96D51BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlTests" */;
-			buildPhases = (
-				3E4E96BA1BA9C6ED00170FB0 /* Sources */,
-				3E4E96BB1BA9C6ED00170FB0 /* Frameworks */,
-				3E4E96BC1BA9C6ED00170FB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3E4E96C01BA9C6ED00170FB0 /* PBXTargetDependency */,
-			);
-			name = "The Unbeatable Squirrel GirlTests";
-			productName = "The Unbeatable Squirrel GirlTests";
-			productReference = 3E4E96BE1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3E4E96C81BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3E4E96D81BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlUITests" */;
-			buildPhases = (
-				3E4E96C51BA9C6ED00170FB0 /* Sources */,
-				3E4E96C61BA9C6ED00170FB0 /* Frameworks */,
-				3E4E96C71BA9C6ED00170FB0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3E4E96CB1BA9C6ED00170FB0 /* PBXTargetDependency */,
-			);
-			name = "The Unbeatable Squirrel GirlUITests";
-			productName = "The Unbeatable Squirrel GirlUITests";
-			productReference = 3E4E96C91BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3E4E969A1BA9C6ED00170FB0 /* Project object */ = {
+		3E7E84241BE9FB0F00DAF763 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = HC;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
-					3E4E96A11BA9C6ED00170FB0 = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					3E4E96BD1BA9C6ED00170FB0 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 3E4E96A11BA9C6ED00170FB0;
-					};
-					3E4E96C81BA9C6ED00170FB0 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 3E4E96A11BA9C6ED00170FB0;
+					3E7E842B1BE9FB0F00DAF763 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = 3E4E969D1BA9C6ED00170FB0 /* Build configuration list for PBXProject "The Unbeatable Squirrel Girl" */;
+			buildConfigurationList = 3E7E84271BE9FB0F00DAF763 /* Build configuration list for PBXProject "The Unbeatable Squirrel Girl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -257,47 +172,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 3E4E96991BA9C6ED00170FB0;
-			productRefGroup = 3E4E96A31BA9C6ED00170FB0 /* Products */;
+			mainGroup = 3E7E84231BE9FB0F00DAF763;
+			productRefGroup = 3E7E842D1BE9FB0F00DAF763 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E4E96A11BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */,
-				3E4E96BD1BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlTests */,
-				3E4E96C81BA9C6ED00170FB0 /* The Unbeatable Squirrel GirlUITests */,
+				3E7E842B1BE9FB0F00DAF763 /* The Unbeatable Squirrel Girl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E4E96A01BA9C6ED00170FB0 /* Resources */ = {
+		3E7E842A1BE9FB0F00DAF763 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4E96B81BA9C6ED00170FB0 /* LaunchScreen.storyboard in Resources */,
-				3E4E96B51BA9C6ED00170FB0 /* Assets.xcassets in Resources */,
-				3E4E96B31BA9C6ED00170FB0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96BC1BA9C6ED00170FB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96C71BA9C6ED00170FB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3E7E844A1BE9FF7200DAF763 /* Keys.plist in Resources */,
+				3E7E843F1BE9FB0F00DAF763 /* LaunchScreen.storyboard in Resources */,
+				3E7E843C1BE9FB0F00DAF763 /* Assets.xcassets in Resources */,
+				3E7E843A1BE9FB0F00DAF763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C1BF32FE836AA72A2C958A7 /* Check Pods Manifest.lock */ = {
+		32585E632970E2EBE6366F81 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61BC0E713CE956D7A36CFFD4 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,7 +227,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		894DE4D61B91DCF9140C53AA /* Copy Pods Resources */ = {
+		B73E6773C5F47979099CE81F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,61 +245,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E4E969E1BA9C6ED00170FB0 /* Sources */ = {
+		3E7E84281BE9FB0F00DAF763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4E96AA1BA9C6ED00170FB0 /* AppDelegate.m in Sources */,
-				3E4E96AD1BA9C6ED00170FB0 /* MasterViewController.m in Sources */,
-				3E4E96A71BA9C6ED00170FB0 /* main.m in Sources */,
-				3E4E96B01BA9C6ED00170FB0 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96BA1BA9C6ED00170FB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E4E96C31BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E4E96C51BA9C6ED00170FB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E4E96CE1BA9C6ED00170FB0 /* The_Unbeatable_Squirrel_GirlUITests.m in Sources */,
+				3E7E844F1BEA097000DAF763 /* ViewController.m in Sources */,
+				3E7E84551BEA0C4000DAF763 /* AppDataManager.m in Sources */,
+				3E7E84341BE9FB0F00DAF763 /* AppDelegate.m in Sources */,
+				3E7E84311BE9FB0F00DAF763 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3E4E96C01BA9C6ED00170FB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3E4E96A11BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */;
-			targetProxy = 3E4E96BF1BA9C6ED00170FB0 /* PBXContainerItemProxy */;
-		};
-		3E4E96CB1BA9C6ED00170FB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3E4E96A11BA9C6ED00170FB0 /* The Unbeatable Squirrel Girl */;
-			targetProxy = 3E4E96CA1BA9C6ED00170FB0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		3E4E96B11BA9C6ED00170FB0 /* Main.storyboard */ = {
+		3E7E84381BE9FB0F00DAF763 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3E4E96B21BA9C6ED00170FB0 /* Base */,
+				3E7E84391BE9FB0F00DAF763 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3E4E96B61BA9C6ED00170FB0 /* LaunchScreen.storyboard */ = {
+		3E7E843D1BE9FB0F00DAF763 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3E4E96B71BA9C6ED00170FB0 /* Base */,
+				3E7E843E1BE9FB0F00DAF763 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -392,7 +278,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3E4E96D01BA9C6ED00170FB0 /* Debug */ = {
+		3E7E84411BE9FB0F00DAF763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,14 +314,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		3E4E96D11BA9C6ED00170FB0 /* Release */ = {
+		3E7E84421BE9FB0F00DAF763 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,16 +351,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3E4E96D31BA9C6ED00170FB0 /* Debug */ = {
+		3E7E84441BE9FB0F00DAF763 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7B0E28AAC6B191859003828 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6C104E5B458C9DD956028DFF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Unbeatable Squirrel Girl/Info.plist";
@@ -484,106 +370,40 @@
 			};
 			name = Debug;
 		};
-		3E4E96D41BA9C6ED00170FB0 /* Release */ = {
+		3E7E84451BE9FB0F00DAF763 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27D04E5EF7CAC416490B1846 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 6321382409F302D55547154F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Unbeatable Squirrel Girl/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hc.The-Unbeatable-Squirrel-Girl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3E4E96D61BA9C6ED00170FB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "The Unbeatable Squirrel GirlTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hc.The-Unbeatable-Squirrel-GirlTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Unbeatable Squirrel Girl.app/The Unbeatable Squirrel Girl";
-			};
-			name = Debug;
-		};
-		3E4E96D71BA9C6ED00170FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "The Unbeatable Squirrel GirlTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hc.The-Unbeatable-Squirrel-GirlTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Unbeatable Squirrel Girl.app/The Unbeatable Squirrel Girl";
-			};
-			name = Release;
-		};
-		3E4E96D91BA9C6ED00170FB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "The Unbeatable Squirrel GirlUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hc.The-Unbeatable-Squirrel-GirlUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "The Unbeatable Squirrel Girl";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		3E4E96DA1BA9C6ED00170FB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "The Unbeatable Squirrel GirlUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hc.The-Unbeatable-Squirrel-GirlUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "The Unbeatable Squirrel Girl";
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E4E969D1BA9C6ED00170FB0 /* Build configuration list for PBXProject "The Unbeatable Squirrel Girl" */ = {
+		3E7E84271BE9FB0F00DAF763 /* Build configuration list for PBXProject "The Unbeatable Squirrel Girl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E4E96D01BA9C6ED00170FB0 /* Debug */,
-				3E4E96D11BA9C6ED00170FB0 /* Release */,
+				3E7E84411BE9FB0F00DAF763 /* Debug */,
+				3E7E84421BE9FB0F00DAF763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E4E96D21BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel Girl" */ = {
+		3E7E84431BE9FB0F00DAF763 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel Girl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E4E96D31BA9C6ED00170FB0 /* Debug */,
-				3E4E96D41BA9C6ED00170FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3E4E96D51BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E4E96D61BA9C6ED00170FB0 /* Debug */,
-				3E4E96D71BA9C6ED00170FB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3E4E96D81BA9C6ED00170FB0 /* Build configuration list for PBXNativeTarget "The Unbeatable Squirrel GirlUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E4E96D91BA9C6ED00170FB0 /* Debug */,
-				3E4E96DA1BA9C6ED00170FB0 /* Release */,
+				3E7E84441BE9FB0F00DAF763 /* Debug */,
+				3E7E84451BE9FB0F00DAF763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3E4E969A1BA9C6ED00170FB0 /* Project object */;
+	rootObject = 3E7E84241BE9FB0F00DAF763 /* Project object */;
 }
